@@ -1,0 +1,51 @@
+/*--- fuentes ---*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@300..700&display=swap');
+
+/*----Global CSS ---*/
+
+:root{
+    --Font:#E5E5E5;
+    --white:#ffffff;
+    --Dark-Blue:#0a3871;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+    text-decoration: none;
+    background: var(--white);
+}
+::selection{
+    background: var(--Dark-Blue);
+    color: var(--white)
+}
+   
+body{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+}
+/*---encabezado---*/
+header{
+    position: absolute;
+    margin: 40px 0px 0px 40px;
+}
+header .logo{
+    display: flex;
+    align-items: flex-start;
+    width: 120px;
+    height: 48px;
+
+}
+/*  seccion pricippal--*/
+main{
+    display: flex;
+    flex-direction: row;
+    background: url(../imagenes/portada.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+     
+}
